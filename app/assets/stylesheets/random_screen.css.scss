@@ -1,13 +1,23 @@
-h3
-{
-  text-align: center;
-}
-
 body 
 {
   font-family:verdana;
   margin:   0;
   overflow: hidden;
+}
+
+#topbar-buttons {
+  padding: 1%;
+  text-align: justify;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  width: 100%;
+}
+#topbar-buttons div {
+  display: inline-block;
+}
+#topbar-buttons:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
 }
 
 #iframe1 
