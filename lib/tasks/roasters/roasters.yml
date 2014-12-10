@@ -1,6 +1,6 @@
 ---
 -
-  name: "10 speed coffee *"
+  name: "10 speed coffee"
   url: "http://10speedcoffee.com/"
 -
   name: "Alana's Coffee Roaster"
@@ -12,7 +12,7 @@
   name: "Augie's Coffee House"
   url: "http://www.augiescoffeehouse.com/"
 -
-  name: "Bar Nine Coffee *"
+  name: "Bar Nine Coffee"
   url: "http://barninela.com/"
 -
   name: "Bodhi Leaf Coffee Traders"
@@ -48,7 +48,7 @@
   name: "Gavina"
   url: "http://www.gavina.com/"
 -
-  name: "Groundwork Coffee Co. *"
+  name: "Groundwork Coffee Co."
   url: "http://www.groundworkcoffee.com/"
 -
   name: "Handsome Coffee Roasters"
@@ -63,10 +63,10 @@
   name: "IOTA Brew Cafe"
   url: "http://iotabrewcafe.com/"
 -
-  name: "Jameson Brown Coffee Roasters *"
+  name: "Jameson Brown Coffee Roasters"
   url: "http://www.jamesonbrown.com/"
 -
-  name: "Jones Coffee Roasters *"
+  name: "Jones Coffee Roasters"
   url: "http://www.thebestcoffee.com/"
 -
   name: "Kean Coffee"
@@ -78,13 +78,13 @@
   name: "LAMill Coffee Roasters"
   url: "http://lamillcoffee.com/"
 -
-  name: "Lift Coffee Roaster *"
+  name: "Lift Coffee Roaster"
   url: "http://liftcoffeeroasters.com/"
 -
   name: "Lightwave Coffee Roasters"
   url: "http://lightwavecoffee.bigcartel.com/"
 -
-  name: "Lord Windsor Roasters *"
+  name: "Lord Windsor Roasters"
   url: "http://lordwindsor.com/"
 -
   name: "New Frontier Coffee"
@@ -92,10 +92,10 @@
 # Open Roast (North Hollywood)
 # - Closed
 -
-  name: "Portola Coffee Lab *"
+  name: "Portola Coffee Lab"
   url: "http://www.portolacoffeelab.com/"
 -
-  name: "Rose Park *"
+  name: "Rose Park"
   url: "http://www.roseparkroasters.com/"
 -
   name: "Stell Coffee & Tea Company"
@@ -109,7 +109,7 @@
   name: "Torch"
   url: "http://www.torchcoffee.com/"
 -
-  name: "True Beans *"
+  name: "True Beans"
   url: "http://truebeans.com/"
 -
   name: "Trystero"
@@ -121,7 +121,7 @@
   name: "West Coast Roaster"
   url: "http://www.westcoastroasting.com/"
 -
-  name: "Wild Goose *"
+  name: "Wild Goose"
   url: "http://wildgoosecoffee.com/"
 -
   name: "StumpTown"
@@ -129,3 +129,6 @@
 -
   name: "FourBarrel Coffee"
   url: "http://fourbarrelcoffee.com/"
+-
+  name: "Toms Roasting Co."
+  url: "http://www.toms.com/coffee"
