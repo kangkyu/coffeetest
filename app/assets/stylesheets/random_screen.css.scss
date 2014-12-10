@@ -10,6 +10,7 @@ body
   text-align: center;
   font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
   width: 100%;
+
 }
 #topbar-buttons div {
   display: inline-block;
@@ -20,9 +21,18 @@ body
   display: inline-block;
 }
 .center-block {
+  size: auto;
+
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  left: 0%;
+  right: 0%;
+
+  margin: auto;
+}
+.add-block {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #iframe1 
