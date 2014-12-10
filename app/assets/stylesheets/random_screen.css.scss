@@ -7,7 +7,7 @@ body
 
 #topbar-buttons {
   padding: 1%;
-  text-align: justify;
+  text-align: center;
   font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
   width: 100%;
 }
@@ -18,6 +18,11 @@ body
   content: '';
   width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #iframe1 
