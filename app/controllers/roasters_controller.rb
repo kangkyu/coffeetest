@@ -6,6 +6,6 @@ class RoastersController < ApplicationController
 
   def show_random_screen
     yml_file_path = Rails.root.join("lib/tasks/roasters/roasters.yml")
-    @screen = YAML.load_file(yml_file_path).sample["url"]
+    @screen = YAML.load_file(yml_file_path).sample
   end
 end
