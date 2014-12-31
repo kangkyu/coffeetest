@@ -1,6 +1,14 @@
-#topbar-buttons
-  .center-block
-    = link_to "roll", root_path, class: "btn btn-default"
-    = link_to "#{@screen["name"]}", @screen["url"], class: "btn btn-link add-block"
+.row
+  - @screens.each do |screen|
+    .col-xs-6.col-md-3
+      .thumbnail
+        / %iframe{frameborder:"0", src:screen["url"], width: "100%"}
+        .caption.text-center
+          = link_to screen["name"], screen["url"]
 
-/ %iframe#iframe1{frameborder:"0", src:@screen}
+/ #topbar-buttons
+/   .center-block
+/     = link_to "roll", root_path, class: "btn btn-default"
+/     = link_to "#{@screen["name"]}", @screen["url"], class: "btn btn-link add-block"
+
+/ %iframe#iframe1{frameborder:"0", src:@screen["url"]}
