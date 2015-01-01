@@ -1,7 +1,8 @@
 .row
   - @screens.each do |screen|
     .col-xs-6.col-md-3
-      .thumbnail
+      .thumbnail{style:"height:20em"}
+        = image_tag url_to_image_name(screen)
         / %iframe{frameborder:"0", src:screen["url"], width: "100%"}
         .caption.text-center
           = link_to screen["name"], screen["url"]
