@@ -17,4 +17,6 @@
 
 **/.DS_Store
 .ruby-version
-/app/assets/images
+
+app/assets/images/
+

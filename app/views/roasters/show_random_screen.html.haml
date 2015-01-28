@@ -1,11 +1,25 @@
 .row
+  .col-lg-12
+    %h1.page-header Thumbnail Gallery
+
+  .col-lg-3.col-md-4.col-xs-6.thumb
+    %a.thumbnail{href: "#"}
+      %img.img-responsive{src: "http://placehold.it/400x300", alt: ""}
+
+.row
   - @screens.each do |screen|
     .col-xs-6.col-md-3
-      .thumbnail{style:"height:20em"}
-        = image_tag url_to_image_name(screen)
+      = link_to screen["url"] do
+        .thumbnail
+          = image_tag url_to_image_name(screen), class: "img-responsive"
+          .caption.text-center
+            = screen["name"]
+
         / %iframe{frameborder:"0", src:screen["url"], width: "100%"}
-        .caption.text-center
-          = link_to screen["name"], screen["url"]
+        / .caption.text-center
+        /   = screen["name"]
+        /   .center-block
+        /     = link_to "go", screen["url"], class: "btn btn-info"
 
 / #topbar-buttons
 /   .center-block
