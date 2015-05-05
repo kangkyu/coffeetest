@@ -29,9 +29,9 @@
 -
   name: "Coffee Tomo"
   url: "http://www.coffeetomo.com/"
--
-  name: "Compelling & Rich"
-  url: "http://compellingandrichcoffee.com/"
+# -
+#   name: "Compelling & Rich"
+#   url: "http://compellingandrichcoffee.com/"
 -
   name: "Conservatory for Coffee, Tea & Cocoa"
   url: "http://www.conservatorycoffeeandtea.com/"
@@ -80,9 +80,9 @@
 -
   name: "Lift Coffee Roaster"
   url: "http://liftcoffeeroasters.com/"
--
-  name: "Lightwave Coffee Roasters"
-  url: "http://lightwavecoffee.bigcartel.com/"
+# -
+#   name: "Lightwave Coffee Roasters"
+#   url: "http://lightwavecoffee.bigcartel.com/"
 -
   name: "Lord Windsor Roasters"
   url: "http://lordwindsor.com/"

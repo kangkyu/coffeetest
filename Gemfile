@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.1.4'
+ruby '2.1.6'
+
+
+gem 'minitest-rails'
+group :test do
+  gem 'mechanize'
+end
+
 
 gem 'haml'
 gem 'haml-rails'
