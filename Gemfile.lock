@@ -157,6 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  dropbox-sdk (~> 1.6.4)
   haml
   haml-rails
   jbuilder (~> 2.0)

@@ -12,6 +12,7 @@ end
 gem 'haml'
 gem 'haml-rails'
 
+gem 'dropbox-sdk', '~> 1.6.4'
 
 gem 'rails', '4.1.7'
 gem 'sass-rails', '~> 4.0.3'
