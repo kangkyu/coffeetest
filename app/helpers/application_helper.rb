@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def url_to_image_name(screen)
-    screen["image_name"] = screen["url"].slice(/:.*/).gsub(/[^a-zA-Z0-9]/, "") + "-clipped.png"
+    asset_url screen["url"].slice(/:.*/).gsub(/[^a-zA-Z0-9]/, "") + "-clipped.png"
   end
 
   def command_take_picture(screen)

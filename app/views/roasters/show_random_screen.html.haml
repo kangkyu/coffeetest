@@ -11,7 +11,7 @@
     .col-xs-6.col-md-3
       = link_to screen["url"] do
         .thumbnail
-          %object{data: asset_path(url_to_image_name(screen)), type: "image/png", class: "img-responsive"}
+          %object{data: url_to_image_name(screen), type: "image/png", class: "img-responsive"}
             = image_tag "http://placehold.it/400x300", class: "img-responsive"
           .caption.text-center
             = screen["name"]
