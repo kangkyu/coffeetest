@@ -47,3 +47,25 @@ body
 .thumbnail {
     vertical-align: middle;
 }
+
+.coffee-card {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
+
+@media only screen and (max-width: 768px) {
+  .coffee-card {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .coffee-card {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
