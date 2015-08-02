@@ -9,7 +9,7 @@ application up and running.
 ```
 
 ###readme-driven development
-+ apply a color scheme
++ apply a color scheme  
   http://www.colourlovers.com/palette/1395640/seaside_caf%C3%A9-nouveau
 + <del>arrange the cards "etsy" style</del>
 + find a better way to import and update screenshot pictures
