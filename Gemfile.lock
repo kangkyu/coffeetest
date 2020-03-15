@@ -96,7 +96,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     pg (0.21.0)
-    puma (3.11.4)
+    puma (3.12.4)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
