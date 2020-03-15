@@ -8,9 +8,9 @@
 -
   name: "Andante Coffee Roasters"
   url: "https://www.facebook.com/pages/Andante-Coffee/224270261061373"
--
-  name: "Augie's Coffee House"
-  url: "http://www.augiescoffeehouse.com/"
+# -
+#   name: "Augie's Coffee House"
+#   url: "http://www.augiescoffeehouse.com/"
 -
   name: "Bar Nine Coffee"
   url: "http://barninela.com/"
@@ -105,9 +105,9 @@
 -
   name: "Torch"
   url: "http://www.torchcoffee.com/"
--
-  name: "True Beans"
-  url: "http://truebeans.com/"
+# -
+#   name: "True Beans"
+#   url: "http://truebeans.com/"
 -
   name: "Trystero"
   url: "http://trysterocoffee.com/"
