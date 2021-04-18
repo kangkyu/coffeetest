@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.8'
+ruby '2.5.7'
 
 gem 'puma'
 
@@ -23,9 +23,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
 
 group :development do
+  gem 'spring'
+  gem 'web-console', '~> 2.0'
+
   gem 'sqlite3', '~> 1.3.0'
 end
 
